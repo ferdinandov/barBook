@@ -1,38 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body
-{
+body {
     box-sizing: border-box;
-    background: url("../images/main-cover.jpg") no-repeat ;
+    background: url("../images/main-cover.jpg") no-repeat;
     background-size: cover;
     font-size: 14px;
 }
 
-h1  {
+h1 {
     letter-spacing: 4px;
     font-family: 'Lobster', sans-serif;
     opacity: 0.5;
     font-size: 6.5em;
     color: white;
     text-align: center;
-    margin:20px 0;
+    margin: 20px 0;
 }
+
 nav {
     margin-top: 430px;
 
 }
+
 nav a {
     display: block;
     opacity: 0.5;
 }
+
 nav a:hover {
     cursor: pointer;
     opacity: 1;
 }
+
 nav ul ul {
     display: none;
     position: absolute;
@@ -42,6 +46,7 @@ nav ul li {
     position: relative;
     display: inline-block;
 }
+
 nav ul li:hover > ul {
     display: inline-block;
 }
@@ -55,13 +60,14 @@ nav ul li ul li {
     position: relative;
     display: block;
 }
+
 nav ul li a {
-    font-family:'Lobster', sans-serif;
+    font-family: 'Lobster', sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;
     font-size: 2em;
-    margin:0 50px;
+    margin: 0 50px;
 
 }

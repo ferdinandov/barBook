@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("../images/whyskey-background.jpg") no-repeat;
+    background: url("../images/forzen2.jpg") no-repeat;
     background-size: cover;
     font-size: 14px;
 }
@@ -19,22 +19,41 @@ main {
     border-radius: 10px;
 }
 
-article {
-    width: 70%;
-    float: left;
-    display: inline-block;
-    margin: 1% 1%;
-    margin-left: 4%;
-    padding-bottom: 5%;
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
 }
-article > p {
 
+section {
+    display: inline-block;
+}
+
+section article a {
+    color: #000;
+    text-decoration: none;
+}
+section article > p {
+    float: left;
     width: 100%;
     text-align: justify;
     font-size: 1.1em;
 }
+section article p a {
+    color: rgba(109, 39, 9, 0.4);
+    text-decoration: none;
+}
 
-article > h1 {
+div {
+    display: inline-block;
+    float: left;
+    width: 70%;
+    margin: 1% 1%;
+    margin-left: 4%;
+}
+h1 {
+    color: black;
     font-size: 3.2em;
     padding: 2% 0;
 }
@@ -55,31 +74,32 @@ img {
     padding: 1%;
     border: none;
 }
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both; height: 0;
-}
+
+
+
 .top {
-    border: 3px solid black;
     float: left;
+    background-color: rgba(86, 168, 207, 0.44);
+    border-radius: 20px;
     width: 18%;
     margin: 3%;
     margin-top:10%;
-    background-color: rgba(228, 227, 36, 0.45);
-    border-radius: 20px;
     opacity: 0.8;
 }
+
 .top > ul {
+    box-sizing: border-box;
     padding: 5%;
     text-transform: capitalize;
     font-size: 2.2em;
 }
+
 .top > ul li {
     list-style-type: none;
     padding: 4%;
-    border-bottom: 3px solid #170b06;
+    border-bottom: 3px solid #ffffff;
 }
+
 .top > ul li a {
     text-decoration: none;
     padding-left: 7%;
@@ -87,7 +107,7 @@ img {
 }
 
 .top > ul li a:hover {
-    color: rgba(205, 124, 7, 0.87);
+    color: #8c87cb;
     cursor: pointer;
     font-weight: bold;
 }

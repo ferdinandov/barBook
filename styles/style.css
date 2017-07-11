@@ -1,32 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body
-{
-    background: url("../images/main-cover.jpg") no-repeat ;
+body {
+    background: url("../images/main-cover.jpg") no-repeat;
     background-size: cover;
     font-size: 14px;
 }
- header  {
+
+header {
     box-sizing: border-box;
-    border:4px solid #ffffff;
+    border: 4px solid #ffffff;
     margin: 40px 100px;
 
 }
- h1  {
+
+h1 {
     font-family: 'Lobster', sans-serif;
     font-size: 6.5em;
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
-    margin:20px 0;
+    margin: 20px 0;
 
 }
- .opacity {
-     opacity: 0.5;
- }
+
+.opacity {
+    opacity: 0.5;
+}
 
 .form {
     text-align: right;
@@ -53,6 +56,7 @@ body
     border: 1px solid rgba(109, 39, 9, 0.95);
 
 }
+
 .form-register {
     opacity: 0.5;
     text-align: right;
@@ -66,6 +70,7 @@ body
     font-weight: bold;
     color: rgba(109, 39, 9, 0.95);
 }
+
 .form-register input {
     display: inline;
     margin: 0 auto;
@@ -78,13 +83,15 @@ body
     border: 1px solid rgba(109, 39, 9, 0.95);
 
 }
+
 div.forms {
     padding-right: 20%;
 }
-a ,
-.submit ,
+
+a,
+.submit,
 .back a {
-    opacity:1;
+    opacity: 1;
     position: relative;
     left: 0px;
     display: block;
@@ -106,6 +113,7 @@ a ,
     background-color: rgba(4, 2, 2, 0.1);
     color: rgba(109, 39, 9, 0.95);
 }
+
 .back a {
     background-color: rgba(109, 39, 9, 0.95);
     color: white;
