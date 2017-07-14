@@ -7,7 +7,7 @@
 
 body {
     background: url("../images/main-cover.jpg") no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     font-size: 14px;
 }
 
