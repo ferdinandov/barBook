@@ -18,15 +18,24 @@ main {
     background-color: white;
     border-radius: 10px;
 }
+div {
+  clear: both;
+  overflow: hidden;
+}
 
 article {
     width: 70%;
-    float: left;
+    float: right;
     display: inline-block;
     margin: 1% 1%;
     margin-left: 4%;
     padding-bottom: 5%;
 }
+
+aside.top {
+  float: right;
+}
+
 article > p {
 
     width: 100%;
@@ -79,9 +88,12 @@ img {
     list-style-type: none;
     padding: 4%;
     border-bottom: 3px solid #170b06;
+    transition: padding 0.5s;
 }
 .top > ul li:hover {
     font-size: 1.3em;
+    padding:13%;
+
 }
 .top > ul li a {
     text-decoration: none;
@@ -94,4 +106,3 @@ img {
     cursor: pointer;
     font-weight: bold;
 }
-

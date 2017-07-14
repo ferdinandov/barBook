@@ -26,21 +26,21 @@ main {
     height: 0;
 }
 
-section {
+.section {
     display: inline-block;
 }
 
-section article a {
+.section article a {
     color: #000;
     text-decoration: none;
 }
-section article > p {
+.section article > p {
     float: left;
     width: 100%;
     text-align: justify;
     font-size: 1.1em;
 }
-section article p a {
+.section article p a {
     color: rgba(109, 39, 9, 0.4);
     text-decoration: none;
 }
@@ -52,7 +52,8 @@ div {
     margin: 1% 1%;
     margin-left: 4%;
 }
-h1 {
+
+h2 {
     color: black;
     font-size: 3.2em;
     padding: 2% 0;
@@ -78,7 +79,7 @@ img {
 
 
 .top {
-    float: left;
+    float: right;
     background-color: rgba(86, 168, 207, 0.44);
     border-radius: 20px;
     width: 18%;

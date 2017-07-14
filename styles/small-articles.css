@@ -25,6 +25,9 @@ main {
     clear: both;
     height: 0;
 }
+div {
+    float: left;
+}
 
 section {
     display: inline-block;
@@ -78,7 +81,7 @@ img {
 
 
 .top {
-    float: left;
+    float: right;
     background-color: rgba(207, 207, 0, 0.44);
     border: 3px solid black;
     border-radius: 20px;
