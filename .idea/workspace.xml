@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe651b1e-484c-488a-9d38-e88247d0d860" name="Default" comment="" />
+    <list default="true" id="fe651b1e-484c-488a-9d38-e88247d0d860" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
               <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
@@ -178,9 +180,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\Desktop\barBook\views" />
       <recent name="C:\Users\Ivan\Desktop\barBook" />
       <recent name="C:\Users\Ivan\Desktop\barBook\images" />
-      <recent name="C:\Users\Ivan\Desktop\barBook\views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ivan\Desktop\barBook\images" />
@@ -330,12 +332,12 @@
       <workItem from="1500043529855" duration="1721000" />
       <workItem from="1500045345542" duration="530000" />
       <workItem from="1500052841954" duration="668000" />
-      <workItem from="1500054980660" duration="12000" />
+      <workItem from="1500054980660" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72424000" />
+    <option name="totallyTimeSpent" value="72523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
@@ -580,7 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
