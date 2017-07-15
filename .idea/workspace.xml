@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe651b1e-484c-488a-9d38-e88247d0d860" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bourbon.html" afterPath="$PROJECT_DIR$/bourbon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drinkvodka.html" afterPath="$PROJECT_DIR$/drinkvodka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/how-make-vodka.html" afterPath="$PROJECT_DIR$/how-make-vodka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/how-make-whiskey.html" afterPath="$PROJECT_DIR$/how-make-whiskey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/irish.html" afterPath="$PROJECT_DIR$/irish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/malt.html" afterPath="$PROJECT_DIR$/malt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pot-still.html" afterPath="$PROJECT_DIR$/pot-still.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scotch.html" afterPath="$PROJECT_DIR$/scotch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/article.css" afterPath="$PROJECT_DIR$/styles/article.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.css" afterPath="$PROJECT_DIR$/styles/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vodka-articles.html" afterPath="$PROJECT_DIR$/vodka-articles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whiskey-history.html" afterPath="$PROJECT_DIR$/whiskey-history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/whiskey.html" afterPath="$PROJECT_DIR$/whiskey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/vodka.css" afterPath="$PROJECT_DIR$/styles/vodka.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vodka.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/vodka.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -63,20 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="how-make-whiskey.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/how-make-whiskey.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="how-make-vodka.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/how-make-vodka.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="85">
               <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding />
             </state>
@@ -126,7 +111,7 @@
       <file leaf-file-name="vodka-articles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/vodka-articles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
+            <state relative-caret-position="556">
               <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
               <folding />
             </state>
@@ -187,7 +172,6 @@
         <option value="$PROJECT_DIR$/views/vodka-articles.html" />
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/styles/vodka.css" />
         <option value="$PROJECT_DIR$/vodka-articles.html" />
         <option value="$PROJECT_DIR$/scotch.html" />
         <option value="$PROJECT_DIR$/whiskey-history.html" />
@@ -204,6 +188,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/styles/vodka.css" />
       </list>
     </option>
   </component>
@@ -433,15 +418,15 @@
       <workItem from="1500095976377" duration="264000" />
       <workItem from="1500119465050" duration="2242000" />
       <workItem from="1500122401763" duration="1803000" />
-      <workItem from="1500124231532" duration="671000" />
+      <workItem from="1500124231532" duration="951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79576000" />
+    <option name="totallyTimeSpent" value="79856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="754" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1957164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -543,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/vodka.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -614,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/how-make-vodka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bourbon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -634,14 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/vodka-articles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -682,6 +644,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/vodka-articles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how-make-vodka.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/vodka.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
           <folding />
         </state>
       </provider>
