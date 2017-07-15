@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 * {
     margin: 0;
@@ -15,6 +16,21 @@ header {
     box-sizing: border-box;
     border: 4px solid #ffffff;
     margin: 40px 100px;
+
+}
+ header .fa-user,
+ header .fa-unlock-alt
+
+ {
+     position: absolute;
+     font-size: 1.4em;
+     top: 41.5%;
+     left: 45.2%;
+}
+header .fa-unlock-alt {
+    top: 47.5%;
+}
+div .name {
 
 }
 
@@ -48,9 +64,9 @@ h1 {
     display: inline;
     margin: 0 auto;
     margin-top: 3%;
-    width: 65%;
+    width: 55%;
     height: 25px;
-    padding-left: 1%;
+    padding-left: 10%;
     margin-left: 2%;
     border-radius: 10px;
     border: 1px solid rgba(109, 39, 9, 0.95);
@@ -89,7 +105,7 @@ div.forms {
 
 a,
 .submit,
-.back a {
+.back {
     opacity: 1;
     position: relative;
     left: 0px;
@@ -106,6 +122,12 @@ a,
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+}
+.red:hover    {
+    background: red;
+}
+.green:hover {
+    background: green;
 }
 
 .submit {

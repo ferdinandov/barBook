@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>BAR BOOK</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
 </head>
 <body>
 
@@ -13,17 +14,19 @@
                  <div class="forms">
                      <div class="name">
                          <label for="name">Name</label>
-                         <input type="text" id="name" placeholder="Your Name" required="required">
+                         <i class="fa fa-user" aria-hidden="true"></i>
+                         <input type="text" id="name" placeholder="Your Name" >
                      </div>
                      <div class="password">
                          <label for="password">Password</label>
-                         <input type="password" id="password" placeholder="Your Password" required="required">
+                         <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                         <input type="password" id="password" placeholder="Your Password">
                      </div>
                  </div>
 
 
-                <btton class="submit" type="submit">ENTER</btton>
-                <botton class="register" type ="button"><a href="register.html">Register Now!</a></botton>
+                <a class="back green" href="home.html">ENTER</a>
+                <a class="register" href="register.html">Register Now!</a>
 
             </form>
 
